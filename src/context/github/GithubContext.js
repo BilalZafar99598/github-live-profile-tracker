@@ -1,6 +1,6 @@
 import { createContext, useReducer } from "react";
 import githubReducer from "./GithubReducer";
-import axios from 'axios';
+// import axios from 'axios';
 
 const GithubContext = createContext();
 

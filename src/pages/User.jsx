@@ -12,11 +12,11 @@ const User = ({match}) => {
     useEffect(() =>{
         getUser(params.login)
         getUserRepos(params.login)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const {
         name,
-        company,
         type,
         avatar_url,
         location,
